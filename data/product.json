@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Mobile Legend",
+      "description": "Mobile Legends Bang Bang adalah sebuah permainan piranti bergerak berjenis arena pertarungan daring multipemain yang dikembangkan dan diterbitkan oleh Moonton.",
+      "imageUrl": "https://akcdn.detik.net.id/community/media/visual/2020/03/16/410c64a0-90c6-428f-9028-a80084e9a26a_43.png?w=700&q=90",
+      "price": [20000, 40000, 60000]
+    },
+    {
+      "name": "PUBG",
+      "description": "PlayerUnknown's Battlegrounds adalah sebuah permainan video dengan genre battle royale, di mana 100 orang sekaligus dapat bermain secara daring. Pemenang dari permainan ini adalah individu atau tim yang dapat bertahan hingga akhir. ",
+      "imageUrl": "https://images.bisnis-cdn.com/posts/2021/09/20/1444304/games-pubg.jpg",
+      "price": [20000, 40000, 60000]
+    },
+    {
+      "name": "Valorant",
+      "description": "Valorant adalah penembak pahlawan orang pertama taktis multipemain gratis untuk dimainkan yang dikembangkan dan diterbitkan oleh Riot Games, untuk Microsoft Windows.",
+      "imageUrl": "https://gamestation.co.id/wp-content/uploads/2021/11/chamber-valorant.jpg",
+      "price": [20000, 40000, 60000]
+    },
+    {
+      "name": "Free Fire",
+      "description": "Garena Free Fire atau biasa disebut Free Fire adalah permainan battle royale yang dikembangkan oleh 111 Dots Studio dan diterbitkan oleh Garena untuk Android dan iOS.",
+      "imageUrl": "https://asset.kompas.com/crops/BU9kcV24cOLREjfywVv0Xw_jfUs=/151x0:1231x720/750x500/data/photo/2020/06/25/5ef405986c087.jpg",
+      "price": [20000, 40000, 60000]
+    },
+    {
+      "name": "Dota 2",
+      "description": "Dota 2 adalah serangkaian video game strategi oleh Valve. Serial ini dimulai pada tahun 2003 dengan dirilisnya Defense of the Ancients.",
+      "imageUrl": "https://akcdn.detik.net.id/community/media/visual/2019/05/03/df6af1b5-8c91-4f60-a6ca-34182a9f42d7_169.jpeg?w=700&q=90",
+      "price": [20000, 40000, 60000]
+    }
+  ]
+  

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./component/heading.ejs') -%>
+  <script src="https://www.paypal.com/sdk/js?client-id=AcjNDhy2IZZ7A59Lp4e4M54KzL2-XPIzXAwPb_pA1AIXdtqeaPN_Dk3BBySAlbVXkYHt8Ja9mZlwYTpb "></script>
+    <script src="/script.js" defer></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand" href="/<%= data.id %>">Klik-Toko</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="/<%= data.id %>">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="/<%= data.id %>/profile">Profile</a></li>
+          </ul> 
+      </div>
+    </div>
+
+  </nav>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="product-details">
+            <br>
+            <div class="section-title">
+              <h3 class="title"><%= data.name %></h3>
+            </div>
+            <br>
+            <div>
+              <img class="card-img-top rounded" src="<%= data.imageUrl %>" />
+            </div>
+          </div>
+          <br>
+          <div class="col-md-10 order-details">
+            <p> <%= data.description %> </p>
+          </div>
+          </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                2000 Diamond: <%= changeIdr(data.price[0]) %>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                6000 Diamond: <%= changeIdr(data.price[1]) %> 
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                10000 Diamond: <%= changeIdr(data.price[2]) %>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="paypal">
+    
+    </div>
+  </div>
+
+</body>
+
+</html>
